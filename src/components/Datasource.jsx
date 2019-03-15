@@ -1,9 +1,5 @@
 const Datasource = [
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
 	index: 1,
 	nameofstate: 'Abia',
 	apcVotes: '10',

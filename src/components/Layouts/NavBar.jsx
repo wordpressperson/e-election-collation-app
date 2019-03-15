@@ -14,11 +14,7 @@ const NavBar = (props) => {
           <IconButton color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-<<<<<<< HEAD
-          <Typography variant="h3" color="inherit">
-=======
           <Typography variant="h6" color="inherit">
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
             Electronic Election Collation App 
           </Typography>
         </Toolbar>

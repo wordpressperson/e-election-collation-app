@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-<<<<<<< HEAD
 import Datasource from '../Datasource.jsx'
 
 
@@ -21,20 +20,11 @@ class DisplayStateResults extends Component{
 	// 	console.log(sum)
 	// }
 
-=======
-
-class DisplayStateResults extends Component{
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
-
 
 render(){
 	return(
 		<div>
-<<<<<<< HEAD
 		    <table className="table table-hover table-bordered table-striped">
-=======
-		    <table className="table table-bodered">
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
 			    <tbody>
 				    <tr>
 					    <td width='100'>{this.props.name}</td>

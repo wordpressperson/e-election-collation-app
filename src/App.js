@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import AddStateResult from './components/Layouts/AddStateResult.jsx';
 import DisplayStateResults from './components/Layouts/DisplayStateResults.jsx';
 import ViewCollation from './components/Layouts/ViewCollation.jsx';
@@ -66,16 +65,6 @@ state = {
    //  return sum;
    //  }, {})
 
-=======
-import NavBar from './components/Layouts/NavBar.jsx';
-import ViewCollation from './components/Layouts/ViewCollation.jsx';
-import MainContent from './components/Layouts/MainContent.jsx';
-import { Provider } from 'react-redux'
-import store from './store'
-
-class App extends Component {
-
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
   render() {
     const DisplayStateResult=this.state.stateVote.map(function (datasource, index) {
             return (<DisplayStateResults 
@@ -87,8 +76,6 @@ class App extends Component {
           })
 
     return (
-<<<<<<< HEAD
-      <div className="container">
         <div className="container">
           <AddStateResult 
             handleChange={this.handleChange} 
@@ -113,14 +100,6 @@ class App extends Component {
 
             {this.state.flag===1 && <ViewResults Total={this.state.voteState} flag={this.state.flag}/>}
           </div>
-=======
-      <Provider store={store}>
-      <div className="App">
-        <NavBar />
-        <MainContent />          
->>>>>>> a63a38df163873ff27ca6b2d3f981b8283538e28
-      </div>
-      </Provider>
     );
   }
 }
