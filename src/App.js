@@ -64,6 +64,7 @@ state = {
    //  sum.apcVotes += parseInt(a.apcVotes)
    //  return sum;
    //  }, {})
+   // this comment should reflect in Azure DevOps 
 
   render() {
     const DisplayStateResult=this.state.stateVote.map(function (datasource, index) {
